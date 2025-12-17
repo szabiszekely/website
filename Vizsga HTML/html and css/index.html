@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Béla bácsi és a tenger titkai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio controls autoplay loop preload="auto" class="main_audi"><source src="../assets/Sea_Waves.ogg" type="audio/ogg"><i>Your browser does not support the audio element. </i></audio>
+    <p id="randomText" class="koszonto"></p>
+        <script>
+            const texts = [
+                "Üdvözlöm a tenger legmélyebb bugyrában",
+                "Nyitott szível várok mindenkit akit érdekel a tenger irányti érdeklődés",
+                "Üdvözöllek a halászat íránti szenvedélyben",
+                "A tenger is él, csak lassabban lélegzik, mint mi.",
+                "A Mély Szíve nem alszik örökké.",
+                "Te is hallottad már a tenger énekét?",
+                "Vigyáz hogy ne nézz túl sokáig a tengerbe, mert lehet hogy fel fal téged is a mély",
+
+            ];
+
+            const randomIndex = Math.floor(Math.random() * texts.length);
+            document.getElementById('randomText').innerText = texts[randomIndex];
+        </script>    
+    <h1>A Mély Szíve</h1>
+    <h3 class="bump">Béla Bácsi Blogja</h3>
+    <img src="../assets/main_pic.png" id="main_img" alt="gyönyörű naplemente">
+    <p>Ez a blog a kedves Sósfoki lakós Béla Bácsi életéröl és történeteiröl tartalmazza bejegyzéseket.</p>
+    <p>A blog sorrán számos érdekességet tudhattok meg mind magárdól Béla Bácsiról,<br> mind a városról Sósfokról és a körülötte terjengö érdekességekröl.</p>
+    <div class="display_link">
+        <div class="display_container">
+            <h3>Béla Bácsi életéröl</h3>
+            <img src="../assets/bela_bacsi.png" alt="béla bácsiról">
+            <p>Béla bácsi élete minden napját Sósfokon tölti. Legtöbbször vagy a kis kunyholyában vagy a tengeren van és rengeteget halászik az ö sajátos régi modú modszereivel.</p>
+            <a href="bela_bacsirol.html">Kattints ide a cik megnyitásához</a>
+        </div>
+        <div class="display_container">
+            <h3>Béla Bácsi eszközeiröl</h3>
+            <img src="../assets/bela_bacsi_eszkozok.png" alt="minden béla bácsi eszközeiröl">
+            <p>Béla bácsi eszközei régi, de nem ocskák. Olvasd el ezt az érdekes beszámolót Béla bácsi eszközeiröl és teknákáiról.</p>
+            <a href="bela_bacsi_eszközei.html">Kattints ide a cik megnyitásához</a>
+
+        </div>
+        <div class="display_container">
+            <h3>Az Élő Tenger Titkairól</h3>
+            <img src="../assets/elo_tenger.png" alt="halottál már az élő tengerröl?">
+            <p>A tenger Él és Lélegzik! Olvasd el hogy mit tartogat a sötét és bugyorgó víz, milyen rendkivültségek folynak Béla bácsival, mikor csak ö van és a tenger.</p>
+            <a href="az_elo_tenger.html">Kattints ide a cik megnyitásához</a>
+       
+        </div>
+        <div class="display_container">
+            <h3>A Mélység Szíve: Rejtélyek a víz felszíne alatt</h3>
+            <img src="../assets/melyseg_szive.png" alt="mélyen a víz alatt...">
+            <p>Rengeteg história kering a faluban hogy mi lehet a víz alatt. Tarts velünk ebben a cíkben és kérdöjelezd meg mindent amit eddig hittél a tengerröl.</p>
+            <a href="a_melyseg_szive.html">Kattints ide a cik megnyitásához</a>
+        </div>
+        <div class="display_container">
+            <h3>Legendák, Babonák és balesetek</h3>            
+            <img src="../assets/legendak.png" alt="történetek a mélységböl">
+            <p>A tenger sokkal kietlenebb mint bárhol a szárazföldön, sok historia tereng, történetekk, szó és száj beszédek, balesetek, SÖT rejtélyes balesetek is!</p>        
+            <a href="balesetek_es_legendak.html">Kattints ide a cik megnyitásához</a>
+        </div>
+
+    </div>
+    <footer>
+        A weblapot készítette: Székely Szabolcs Attila
+        <br>
+        A bloghoz tartozó információt a Sósfoki: Béla Bácsi támogadta
+    </footer>
+</body>
+</html>
+
+
